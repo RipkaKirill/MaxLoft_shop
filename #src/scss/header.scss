@@ -1,0 +1,103 @@
+.header {
+   background: #313131;
+   
+   height: 890px;
+   position: relative;
+
+   &__logo {
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 38px;
+      transform: translate(-50%);
+      color: #ffffff;
+      font-size: 68px;
+      text-transform: uppercase;
+      span {
+         color: #f2a500;
+      }
+   }
+
+   &__button-1 {
+      position: absolute;
+      right: 40px;
+      top: 40px;
+   }
+
+   &__nav {
+      text-align: center;
+      margin: 177px 0px 0px 0px;
+      position: relative;
+      z-index: 2;
+      a {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0px 85px 0px;
+      &:hover {
+         text-decoration: underline;
+      }
+      }
+   }
+   &__block {
+      position: absolute;
+      z-index: 2;
+      top: 458px;
+      left: 41px;
+   }
+   &__title {
+      color: white;
+      margin: 0px 0px 48px 0px;
+   }
+
+   &__subtitle {
+      /* Style for "Мебель в с" */
+      width: 325px;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      margin: 0px 0px 100px 0px;
+   }
+
+   &__bg {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      
+   }
+   &__bg-1 {
+      position: absolute;
+      left: 0;
+      top: 0;
+   }
+   &__bg-2 {
+      position: absolute;
+      left: 465px;
+      top: 0;
+   }
+}
+.button {
+   padding: 18px 48px 18px 52px;
+   border-radius: 20px;
+   background-color: #ec7f00;
+   color: #ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   &:hover {
+      background: #944f01;
+      transform: scale(1.02);
+   }
+}
+
+
+

@@ -1,0 +1,37 @@
+.footer {
+   background: #313131;
+   height: 144px;
+   &__contant {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__logo {
+      color: #ffffff;
+      font-size: 68px;
+      text-transform: uppercase;
+      margin: 45px 0px 0px 0px;
+      span {
+         color: #f2a500;
+      }
+   }
+
+   &__nav {
+      margin: 60px 0px 0px 0px;
+      a {
+         margin: 0px 85px 0 0;
+         color: white;
+         font-family: 'Montserrat', sans-serif;
+         &:last-child{
+            margin: 0;
+         }
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+   img {
+      margin: 52px 0px 0px 0px;
+   }
+}
+
